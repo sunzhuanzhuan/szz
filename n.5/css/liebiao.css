@@ -1,0 +1,152 @@
+*{
+	marin:0;padding:0;
+}
+.center{
+	width:1220px;margin:0 auto;height:3500px;overflow: hidden;margin-top:15px;
+}
+.left{
+	width:230px;/*height:4000px;background:pink;*/float:left;
+	color:#000;
+}
+.right{
+	width:970px;float:left;	
+}
+.left ol li a{
+	display: block;font-size: 14px;color:#000;
+}
+.left ol{
+	display: none;background:#fff;width:230px;
+}
+.left ul li img{
+	width:230px;
+}
+.left h2{
+	text-align: center;background:#e4e4e4;margin-top:10px;
+	height:40px;font-size: 14px;line-height: 40px;
+}
+.left ul li{
+	width:230px;background:#f1f1f1;text-align: center;
+	border-bottom: 2px solid #e4e4e4;
+		
+}
+.left ul li {
+	font-size: 20px;color:#000;border-right: none;
+	padding-top:10px ;padding-bottom:10px ;
+}
+.left ul li a{
+	color:#000;font-family: "微软雅黑";
+}
+.left ul li  ol li{
+	background: #fff;
+}
+.left ul li  ol li a{
+	font-size: 12px;color:#000;line-height:2;
+}
+.right .toop{
+	width:980px;margin-left:9px;border:3px solid #999;
+}
+.right .toop ul li{
+	border-bottom:1px solid #999;padding-bottom: 4px;padding-top: 5px;
+}
+.right .toop ul li a{
+	display: inline-block;width:208px;height:20px;text-align: center;
+	
+}
+.right .toop ul li p a{
+	display: inline-block;width:90px;height:20px;color:#000;
+}
+.right .toop ul li p input{
+	border:none;width:50px;height:30px;cursor:pointer;
+}
+#xliang{
+	border:1px solid #999;width:230px;
+}
+#xliang li{
+	background: #fff;border-bottom:1px dashed #999;
+}
+#xliang li span{
+	color:red;font-size: 18px;font-weight: bold;
+}
+.bx{
+	background: skyblue;
+}
+#btn{
+	text-align: center;font-size: 12px;
+}
+.e{
+	height:150px;overflow: hidden;
+}
+.f{
+	overflow: auto;
+}
+.xxk{
+	margin-left:10px;margin-top:10px;position:relative;width: 500px;height: 500px;
+}
+.xxk p input{
+	margin-right:5px;border:1px solid #999;width:80px;height:30px;
+	display: inline-block;cursor:pointer;
+}
+.xxk div{
+	position:absolute;display: none;width:960px;
+	
+}
+.ckecked1{
+	background:red;	
+}
+.slected{
+	display: block !important;width:960px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

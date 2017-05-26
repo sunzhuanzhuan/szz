@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/denglu.css"/>
+		<style>
+		*{
+			margin:0;padding:0;
+		}
+		iframe{
+			width:100%;border:none;height:100%;
+		}
+		.header{
+			width:100%;height:200px;overflow: hidden;margin:0 auto;
+			/*position: absolute;z-index: 1;*/
+		}
+		.footer{
+			width:100%;height:500px;overflow: hidden;margin:0 auto;
+		}
+		.liebiao{
+			display: none;
+		}
+		</style>
+		<sctipt src="../js/jquery-1.11.3.jsgu"></sctipt>
+		<script src="../publicjs/ajax.js" ></script>
+		<script src="../publicjs/cookie.js"></script>
+	<body>
+	<div class="header">
+	<!--<iframe src="headerqt.html" scrolling="no"></iframe>-->
+	</div>
+	<script>
+	ajax.get("headerqt1.html", function (str){
+		document.querySelector(".header").innerHTML = str;
+	})
+	</script>
+	<div class="center">
+		<div class="left">
+			<p>已注册用户，请从这里<span>登陆</span></p>
+			<h4>
+			用户名：<input type="text" /><br />
+			密   码：<input type="text" /><span><a href="#">忘记密码</a></span><br />
+			验证码：<input type="text" /><span></span><br />
+			<input type="button" name="" id="btn1" value="登录" />
+			<h5>使用合作网站账号登录NO.5时尚广场</h5>
+			<h6>
+				<a href="#"><img src="../icon/1.png"/></a>
+				<a href="#"><img src="../icon/2.png"/></a>
+				<a href="#"><img src="../icon/3.png"/></a>
+			</h6>
+			</h4>
+		</div>
+		<div class="right">
+			<p>如果您是新用户，请从这里<span>注册</span></p>
+			<h4>
+			用 户 名：<input type="text" /><span></span><br />
+			<span></span><br />
+			输入密码：<input type="text" /><span></span><br />
+			<span></span><br />
+			重复密码：<input type="text" /><span></span><br />
+			<span></span><br />
+			电子邮件：<input type="text" /><span></span><br />
+			<span></span><br />
+			验 证 码：<input type="text" /><span>123</span><br />
+			<span></span><br />
+			<input type="checkbox" checked="checked" id="checked"/>我已阅读并同意<span id="sp3">《no5用户注册协议》</span><br />
+			<input type="button" name="" id="btn2" value="注册" />
+			<h4>
+		</div>
+	</div>
+	<div class="footer">
+	<iframe src="footer.html" scrolling="no"></iframe>	
+	</div>
+	</body>
+</html>
+<script src="../js/denglu.js"></script> 

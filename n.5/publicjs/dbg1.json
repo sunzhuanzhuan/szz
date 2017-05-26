@@ -1,0 +1,9 @@
+﻿{
+	"type":["化妆品","动物"],
+	"list":[
+		{"id":"1", "time":"2017/5/9 15:1:31","img":"pa1.jpg", "price":500, "type":"0","content":"护肤面膜魅力加分，拥有美白肌肤","imgs":["li2.jpg","li3.jpg","li4.jpg","li5.jpg"],"num":1},
+		{"id":"2", "time":"2017/5/9 15:1:31","img":"pa2.jpg", "price":200, "type":"0","content":"护肤面膜魅力加分，拥有美白肌肤","imgs":[],"num":1},
+		{"id":"3", "time":"2017/5/9 5:15:21","img":"pa3.jpg", "price":400, "type":"0","content":"护肤面膜魅力加分，拥有美白肌肤","imgs":[],"num":1},
+		{"id":"4", "time":"2017/5/9 4:15:21","img":"pa4.jpg", "price":200, "type":"0","content":"护肤面膜魅力加分，拥有美白肌肤","imgs":[],"num":1}
+		]
+}

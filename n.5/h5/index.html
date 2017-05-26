@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<style>
+		*{
+			margin:0;padding:0;
+		}
+		.header{
+			width:100%;
+		}
+		.header iframe{
+			width:100%;border:none;height:130px;
+		}
+		.footer{
+			width:100%;height:450px;overflow: hidden;margin:0 auto;clear: both;
+		}
+		.footer iframe{
+			width:100%;border:none;height:450px;
+		}
+		</style>
+		<script src="../publicjs/startMove.js"></script>
+		<script src="../publicjs/ajax.js"></script>	
+		<script src="../publicjs/cookie.js"></script>	
+		<script src="../publicjs/query.js"></script>
+		<script src="jquery-1.11.3.js" ></script>
+	</head>
+	<body>
+	<!--**************top***************-->
+	<div class="top1">
+		<div class="top">
+			<span>晚上好，<b id="b"></b>欢迎光临No5时尚广场。</span>
+			<input type="button" id="bw"/>
+			<a href="denglu.html">[登录]</a>
+			<a href="denglu.html">[免费注册]</a>
+			<ul>
+				<li><a href="#">我的账单</a></li>
+				<li><a href="#">收藏本站</a></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><img src="../img/iphone.jpg"/></li>
+			</ul>
+		</div>
+	</div>
+		<!--**************logo***************-->
+		<div class="logo">
+			<h1><a href="#"><img src="../img/logo.jpg"/></a></h1>
+			<h2>
+				<input type="text" name="" id="" value="" />
+				<input type="button"  value="搜索"/><br />
+				<a href="#">热门搜索</a>
+				<a href="#">补水保湿</a>
+				<a href="#">马油霜</a>
+				<a href="#">雅漾</a>
+				<a href="#">雅诗兰黛</a>
+				<a href="#">护手霜</a>
+				<a href="#">可莱丝面膜</a>
+				<a href="#">专柜小样</a>
+			</h2>
+			<h3 id="h3">
+				<a href="cart.html"></a>
+				<a href="#">购物车<span id="shuzi"></span>件</a>
+			</h3>
+			<ul id="logoul">
+					
+			</ul>
+		</div>
+	<!--************************nav***********************-->
+		<div class="nav1">
+			<div class="nav">
+				<a href="#" id="a1">全部商品</a>
+				<a href="#" id="a2">首页</a>
+				<a href="#">超值小样</a>
+				<a href="#">明星推荐</a>
+				<a href="#">最新活动</a>
+				<a href="#">新品上架</a>
+				<a href="#">本周特价</a>
+				<a href="#">品牌库</a>
+			</div>
+			<div class="liebiao">
+				<ul class="ul1">
+					<li>
+					<p><a href="liebiao.html">面部护理</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">洗面奶</a>
+					<a href="#">爽肤水</a>
+					<a href="#">乳液</a>
+					<a href="#">防晒</a>
+					<a href="#">面膜</a>
+					<a href="#">精华</a>
+					<a href="#">眼霜</a>
+					<a href="#">卸妆</a></h4>
+					</li>
+					<li>
+					<p><a href="#">彩妆</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">BB霜</a>
+					<a href="#">粉底液</a>
+					<a href="#">妆前乳</a>
+					<a href="#">隔离</a>
+					<a href="#">唇膏</a>
+					<a href="#">睫毛膏</a>
+					<a href="#">眼线</a>
+					<a href="#">指甲油</a></h4>
+					</li>
+					<li>
+					<p><a href="#">香氛</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">女士香水</a>
+					<a href="#">男士香水</a>
+					<a href="#">香水套装</a>
+					<a href="#">中性香水</a>
+					<a href="#">限量版</a>
+					</h4>
+					</li>
+					<li>
+					<p><a href="#">香氛</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">女士香水</a>
+					<a href="#">男士香水</a>
+					<a href="#">香水套装</a>
+					<a href="#">中性香水</a>
+					<a href="#">限量版</a>
+					</h4>
+					</li>
+					<li>
+					<p><a href="#">彩妆</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">BB霜</a>
+					<a href="#">粉底液</a>
+					<a href="#">妆前乳</a>
+					<a href="#">隔离</a>
+					<a href="#">唇膏</a>
+					<a href="#">睫毛膏</a>
+					<a href="#">眼线</a>
+					<a href="#">指甲油</a></h4>
+					</li>
+					<li>
+					<p><a href="#">香氛</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">女士香水</a>
+					<a href="#">男士香水</a>
+					<a href="#">香水套装</a>
+					<a href="#">中性香水</a>
+					<a href="#">限量版</a>
+					</h4>
+					</li>
+					<li>
+					<p><a href="#">香氛</a></p>
+					<p><a href="#">></a></p>
+					<h4><a href="#">女士香水</a>
+					<a href="#">男士香水</a>
+					<a href="#">香水套装</a>
+					<a href="#">中性香水</a>
+					<a href="#">限量版</a>
+					</h4>
+					</li>
+				</ul>
+					<div>
+						<ul>
+							<li><span>卸妆步骤</span>
+							<a href="#">卸妆油</a>
+							<a href="#">卸妆乳、/霜</a>
+							<a href="#">眼唇卸妆</a>
+							<a href="#">卸妆水</a>
+							<a href="#">卸妆啫喱</a>
+							<a href="#">姐夫卸妆2和1</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>精华步骤
+							<a href="#">化妆水</a>
+							<a href="#">美容液</a>
+							<a href="#">花水/纯露</a>
+							<a href="#">喷雾</a>
+							<a href="#">化妆棉</a>
+							</li>
+							<li>润肤步骤
+							<a href="#">基底</a>
+							<a href="#">精华素</a>
+							<a href="#">原液</a>
+							<a href="#">精油</a>
+							</li>
+							<li>夜间防护
+							<a href="#">眼精华</a>
+							<a href="#">眼霜</a>
+							<a href="#">眼膜</a>
+							<a href="#">唇部去角质</a>
+							<a href="#">唇膏</a>
+							</li>
+							<li>日间防护
+							<a href="#">防晒霜</a>
+							<a href="#">防晒液</a>
+							<a href="#">晒后修复</a>
+							<a href="#">免晒美黑</a>
+							</li>
+							<li>眼唇护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>特殊护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>口服美容
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>护肤套装
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>儿童护肤
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							
+							<li>眼唇护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>特殊护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>儿童护肤
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><span>卸妆步骤</span>
+							<a href="#">卸妆啫喱</a>
+							<a href="#">姐夫卸妆2和1</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>精华步骤
+							<a href="#">化妆水</a>
+							<a href="#">化妆棉</a>
+							</li>
+							<li>润肤步骤
+							<a href="#">基底</a>
+							<a href="#">精华素</a>
+							<a href="#">原液</a>
+							<a href="#">精油</a>
+							</li>
+							<li>夜间防护
+							<a href="#">眼精华</a>
+							<a href="#">眼霜</a>
+							<a href="#">唇膏</a>
+							</li>
+							<li>日间防护
+							<a href="#">防晒霜</a>
+							<a href="#">防晒液</a>
+							<a href="#">晒后修复</a>
+							<a href="#">免晒美黑</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>口服美容
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><span>卸妆步骤</span>
+							<a href="#">卸妆油</a>
+							<a href="#">卸妆乳、/霜</a>
+							<a href="#">眼唇卸妆</a>
+							<a href="#">卸妆水</a>
+							<a href="#">卸妆啫喱</a>
+							<a href="#">姐夫卸妆2和1</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>精华步骤
+							<a href="#">化妆水</a>
+							<a href="#">美容液</a>
+							<a href="#">花水/纯露</a>
+							<a href="#">喷雾</a>
+							<a href="#">化妆棉</a>
+							</li>
+							<li>润肤步骤
+							<a href="#">基底</a>
+							<a href="#">精华素</a>
+							<a href="#">原液</a>
+							<a href="#">精油</a>
+							</li>
+							<li>夜间防护
+							<a href="#">眼精华</a>
+							<a href="#">眼霜</a>
+							<a href="#">眼膜</a>
+							<a href="#">唇部去角质</a>
+							<a href="#">唇膏</a>
+							</li>
+							<li>日间防护
+							<a href="#">防晒霜</a>
+							<a href="#">防晒液</a>
+							<a href="#">晒后修复</a>
+							<a href="#">免晒美黑</a>
+							</li>
+							<li>眼唇护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>特殊护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>口服美容
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>护肤套装
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>儿童护肤
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							
+							<li>眼唇护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>特殊护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>儿童护肤
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><span>卸妆步骤</span>
+							<a href="#">卸妆啫喱</a>
+							<a href="#">姐夫卸妆2和1</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>精华步骤
+							<a href="#">化妆水</a>
+							<a href="#">化妆棉</a>
+							</li>
+							<li>润肤步骤
+							<a href="#">基底</a>
+							<a href="#">精华素</a>
+							<a href="#">原液</a>
+							<a href="#">精油</a>
+							</li>
+							<li>夜间防护
+							<a href="#">眼精华</a>
+							<a href="#">眼霜</a>
+							<a href="#">唇膏</a>
+							</li>
+							<li>日间防护
+							<a href="#">防晒霜</a>
+							<a href="#">防晒液</a>
+							<a href="#">晒后修复</a>
+							<a href="#">免晒美黑</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>口服美容
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><span>卸妆步骤</span>
+							<a href="#">卸妆油</a>
+							<a href="#">卸妆乳、/霜</a>
+							<a href="#">眼唇卸妆</a>
+							<a href="#">卸妆水</a>
+							<a href="#">卸妆啫喱</a>
+							<a href="#">姐夫卸妆2和1</a>
+							</li>
+							<li>洁肤步骤
+							<a href="#">洁面膏</a>
+							<a href="#">洁面啫喱</a>
+							<a href="#">洁面摩斯</a>
+							<a href="#">洁面皂</a>
+							<a href="#">洁面粉</a>
+							<a href="#">面部去角质</a>
+							</li>
+							<li>精华步骤
+							<a href="#">化妆水</a>
+							<a href="#">美容液</a>
+							<a href="#">花水/纯露</a>
+							<a href="#">喷雾</a>
+							<a href="#">化妆棉</a>
+							</li>
+							<li>润肤步骤
+							<a href="#">基底</a>
+							<a href="#">精华素</a>
+							<a href="#">原液</a>
+							<a href="#">精油</a>
+							</li>
+							<li>夜间防护
+							<a href="#">眼精华</a>
+							<a href="#">眼霜</a>
+							<a href="#">眼膜</a>
+							<a href="#">唇部去角质</a>
+							<a href="#">唇膏</a>
+							</li>
+							<li>日间防护
+							<a href="#">防晒霜</a>
+							<a href="#">防晒液</a>
+							<a href="#">晒后修复</a>
+							<a href="#">免晒美黑</a>
+							</li>
+							<li>眼唇护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>特殊护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>T区护理
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>口服美容
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>护肤套装
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+							<li>儿童护肤
+							<a href="#">胶原蛋白</a>
+							<a href="#">葡萄籽</a>
+							<a href="#">维生素</a>
+							<a href="#">1其他</a>
+							</li>
+						</ul>
+						<ul class="ul2">
+							<h5>推荐品牌</h5>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+							<li><a href="#">兰蔻</a></li>
+							<li><a href="#">雅诗兰黛</a></li>
+							<li><a href="#">倩碧</a></li>
+							<li><a href="#">娇韵诗</a></li>
+							<li><a href="#">迪奥</a></li>
+							<li><a href="#">碧欧泉</a></li>
+							<li><a href="#">兰芝</a></li>
+							<li><a href="#">科颜氏</a></li>
+							<li><a href="#">fresh</a></li>
+							<li><a href="#">SK-II</a></li>
+							<li><a href="#">可莱丝</a></li>
+							<li><a href="#">茱莉蔻</a></li>
+							<li><a href="#">资生堂</a></li>
+							<li><a href="#">高丝</a></li>
+							<li><a href="#">粟米</a></li>
+							<li><a href="#">悦诗风吟</a></li>
+						<li class="li1"><img src="../img/c6.jpg"/></li>
+						</ul>
+					</div>
+					
+			</div>
+		</div>
+	<!--**********************banner*****************-->
+	<div class="banner1">
+		<div class="navleft">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="imgs">
+			<ul>
+				<li><a href="#"><img src="../images/1.jpg"/></a></li>
+				<li><a href="#"><img src="../images/2.jpg"/></a></li>
+				<li><a href="#"><img src="../images/3.jpg"/></a></li>
+				<li><a href="#"><img src="../images/4.jpg"/></a></li>
+			</ul>
+			<ol>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ol>
+		</div>
+	
+		<div class="navright">
+			<ul>
+				<li>
+					<img src="../icon/a1.jpg"/>
+					<img src="../icon/a1.jpg"/>
+					<img src="../icon/a1.jpg"/>
+				</li>
+				<li>
+					<img src="../icon/a2.jpg"/>
+					<img src="../icon/a2.jpg"/>
+					<img src="../icon/a2.jpg"/>					
+				</li>
+				<li>
+					<img src="../icon/a3.jpg"/>
+					<img src="../icon/a3.jpg"/>
+					<img src="../icon/a3.jpg"/>
+				</li>
+				<li>
+					<img src="../icon/a4.jpg"/>
+					<img src="../icon/a4.jpg"/>
+					<img src="../icon/a4.jpg"/>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<div class="p1">
+		<img src="../indeximg/p1.jpg"/>
+		<img src="../indeximg/p2.jpg"/>
+		<img src="../indeximg/p3.jpg"/>
+		</div>
+	<!--*******************去抢购******************************-->	
+	<div class="limitB">
+		<h2>限时抢购<span>LIMIT BUY</span></h2>
+		<ul></ul>
+	</div>	
+	<!--*****************************本周特价***************************************-->	
+	<div class="tejia">
+		<p>
+		<a href="#">本周特价</a>
+		<a href="#">明星推荐</a>
+		<a href="#">新品上架</a>
+		<a href="#">热评商品</a>
+		<a href="#">超值小样</a>
+		</p>
+		<div class="selceted1">
+			<ul>
+				<li><img src="../showimg/1.jpg"/><br />
+					<a href="#">Esrer Lajsak雅诗兰黛</a><br />
+					<a href="#">特润修复机头护理精华胶囊10粒</a><br /><br /><br />
+					<b>每一颗独立包装，方便使用携带</b><br />
+					<span>￥128.00 <i>(8折)</i></span>
+				</li>
+				<li><img src="../showimg/2.jpg"/><br />
+					<b>JAYJIUD水光紫色薰花瓣保湿面</b><br />
+					<span>￥138.00 <i>(5.5折)</i></span>
+				</li>
+				<li>
+					<b>JAYJIUD水光紫色薰花瓣保湿面</b><br />
+					<span>￥138.00 <i>(5.5折)</i></span>
+					<img src="../showimg/3.jpg"/><br />
+				</li>
+				<li><img src="../showimg/4.jpg"/>
+					<h6>
+					<b>JAYJIUD水光紫色薰花瓣保湿面</b><br />
+					<span>￥48.00 <i>(4.5折)</i></span>
+					</h6>
+				</li>
+				<li><img src="../showimg/5.jpg"/><br />
+					<a href="#">Esrer Lajsak雅诗兰黛</a><br />
+					<a href="#">特润修复机头护理精华胶囊10粒</a><br /><br /><br />
+					<b>每一颗独立包装，方便使用携带</b><br />
+					<span>￥128.00 <i>(8折)</i></span>
+				</li>
+				<li><img src="../showimg/6.jpg"/><br />
+					<b>JA紫色薰花瓣保湿面</b>
+					<span>￥48.00 <i>(4.5折)</i></span>
+				</li>
+				<li><img src="../showimg/7.jpg"/><br />
+					<b>JAYJIUD水光紫色薰花瓣保湿面</b><br />
+					<span>￥48.00 <i>(4.5折)</i></span>
+				</li>
+			</ul>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>	
+	<!--*****************************品牌活动********************************************-->	
+	<div class="pinpai">
+		<h2>品牌活动<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>
+		<ul>
+			<li><img src="../indeximg/pa1.jpg"></li>
+			<li><img src="../indeximg/pa2.jpg"></li>
+			<li><img src="../indeximg/pa3.jpg"></li>
+			<li><img src="../indeximg/pa4.jpg"></li>
+			<li><img src="../indeximg/pa2.jpg"></li>
+		</ul>
+	</div>	
+	<!--**************************护肤*****************************************-->		
+	<div class="hf">
+		<h2>护肤SKIN CARE<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>	
+		<div class="left">
+			<ul>
+				<li><img src="../img/x1.jpg"/></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				</li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/c6.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>	
+				<img src="../img/r7.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/r8.jpg"/></li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>洗护热销</h2>
+			<img src="../img/c4.jpg">
+			<h4>欧舒丹马鞭草味涡阳洗头露</h4>
+			<h6>￥150</h6>
+			<ul>
+				<li><span>②</span>&nbsp;&nbsp;丝塔芙洁面乳</li>
+				<li><span>③</span>&nbsp;&nbsp;偶数洁面乳</li>
+				<li><span>④</span>&nbsp;&nbsp;克莱斯勒十四复苏数控技术</li>
+				<li><span>⑤</span>&nbsp;&nbsp;看了居民开始了离开时</li>
+				<li><span>⑥</span>&nbsp;&nbsp;四六级诶哦居民了偶是拍拍拍拍</li>
+			</ul>
+		</div>
+	</div>	
+	<!--**************************彩妆*****************************************-->		
+	<div class="cz">
+		<h2>护肤SKIN CARE<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>	
+		<div class="left">
+			<ul>
+				<li><img src="../img/x1.jpg"/></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				</li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/c6.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>	
+				<img src="../img/r7.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/r8.jpg"/></li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>洗护热销</h2>
+			<img src="../img/c4.jpg">
+			<h4>欧舒丹马鞭草味涡阳洗头露</h4>
+			<h6>￥150</h6>
+			<ul>
+				<li><span>②</span>&nbsp;&nbsp;丝塔芙洁面乳</li>
+				<li><span>③</span>&nbsp;&nbsp;偶数洁面乳</li>
+				<li><span>④</span>&nbsp;&nbsp;克莱斯勒十四复苏数控技术</li>
+				<li><span>⑤</span>&nbsp;&nbsp;看了居民开始了离开时</li>
+				<li><span>⑥</span>&nbsp;&nbsp;四六级诶哦居民了偶是拍拍拍拍</li>
+			</ul>
+		</div>
+	</div>	
+	<!--**************************香水*****************************************-->		
+	<div class="xs">
+		<h2>护肤SKIN CARE<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>	
+		<div class="left">
+			<ul>
+				<li><img src="../img/x1.jpg"/></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				</li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/c6.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>	
+				<img src="../img/r7.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/r8.jpg"/></li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>洗护热销</h2>
+			<img src="../img/c4.jpg">
+			<h4>欧舒丹马鞭草味涡阳洗头露</h4>
+			<h6>￥150</h6>
+			<ul>
+				<li><span>②</span>&nbsp;&nbsp;丝塔芙洁面乳</li>
+				<li><span>③</span>&nbsp;&nbsp;偶数洁面乳</li>
+				<li><span>④</span>&nbsp;&nbsp;克莱斯勒十四复苏数控技术</li>
+				<li><span>⑤</span>&nbsp;&nbsp;看了居民开始了离开时</li>
+				<li><span>⑥</span>&nbsp;&nbsp;四六级诶哦居民了偶是拍拍拍拍</li>
+			</ul>
+		</div>
+	</div>			
+	<!--**************************男士*****************************************-->		
+	<div class="nan">
+		<h2>护肤SKIN CARE<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>	
+		<div class="left">
+			<ul>
+				<li><img src="../img/x1.jpg"/></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				</li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/c6.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>	
+				<img src="../img/r7.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/r8.jpg"/></li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>洗护热销</h2>
+			<img src="../img/c4.jpg">
+			<h4>欧舒丹马鞭草味涡阳洗头露</h4>
+			<h6>￥150</h6>
+			<ul>
+				<li><span>②</span>&nbsp;&nbsp;丝塔芙洁面乳</li>
+				<li><span>③</span>&nbsp;&nbsp;偶数洁面乳</li>
+				<li><span>④</span>&nbsp;&nbsp;克莱斯勒十四复苏数控技术</li>
+				<li><span>⑤</span>&nbsp;&nbsp;看了居民开始了离开时</li>
+				<li><span>⑥</span>&nbsp;&nbsp;四六级诶哦居民了偶是拍拍拍拍</li>
+			</ul>
+		</div>
+	</div>			
+	<!--**************************美体*****************************************-->		
+	<div class="mt">
+		<h2>护肤SKIN CARE<span><a href="#">水芝澳5折封顶</a><a href="#">兰蔻专场1.6折</a><a href="#">高丝雪肌精4.3折</a></span></h2>	
+		<div class="left">
+			<ul>
+				<li><img src="../img/x1.jpg"/></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p></li>
+				<li><img src="../img/c2.jpg"/>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<br /><br /><br /><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				</li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/c6.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>	
+				<img src="../img/r7.jpg"/></li>
+				<li>
+				<p>	<span>倩碧卓越润肤乳</span><br /><span>天才黄油5折</span><br />
+				<b>￥180<span>(5.8折)</span></b></p>
+				<img src="../img/r8.jpg"/></li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>洗护热销</h2>
+			<img src="../img/c4.jpg">
+			<h4>欧舒丹马鞭草味涡阳洗头露</h4>
+			<h6>￥150</h6>
+			<ul>
+				<li><span>②</span>&nbsp;&nbsp;丝塔芙洁面乳</li>
+				<li><span>③</span>&nbsp;&nbsp;偶数洁面乳</li>
+				<li><span>④</span>&nbsp;&nbsp;克莱斯勒十四复苏数控技术</li>
+				<li><span>⑤</span>&nbsp;&nbsp;看了居民开始了离开时</li>
+				<li><span>⑥</span>&nbsp;&nbsp;四六级诶哦居民了偶是拍拍拍拍</li>
+			</ul>
+		</div>
+	</div>		
+	<!--**************************footer************************************-->		
+	<div class="footer">
+	<iframe src="footer.html" scrolling="no"></iframe>	
+	</div>	
+	<!--************************louti************************************-->		
+	<div class="louti">
+		<ol>
+			<li>Top</li>
+		</ol>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>10</li>
+			<li>11</li>
+		</ul>
+		<ol>
+			<li>Top</li>
+		</ol>
+</div>		
+		
+	
+	</body>
+</html>
+<script type="text/javascript" src="../js/index.js"></script>

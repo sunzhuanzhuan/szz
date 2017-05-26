@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/liebiao.css"/>
+		<style>
+		*{
+			margin:0;padding:0;
+		}
+		iframe{
+			width:100%;border:none;height:100%;
+		}
+		.header{
+			width:100%;height:160px;overflow: hidden;margin:0 auto;
+			/*position: absolute;z-index: 1;*/
+		}
+		.footer{
+			width:100%;height:500px;overflow: hidden;margin:0 auto;
+		}
+		.liebiao{
+			display: none;
+		}
+		</style>
+		<sctipt src="../js/jquery-1.11.3.jsgu"></sctipt>
+		<script src="../publicjs/ajax.js" ></script>
+		<script src="../publicjs/cookie.js"></script>
+	</head>
+	<body>
+		<div class="header">
+	<!--<iframe src="headerqt.html" scrolling="no"></iframe>-->
+	</div>
+	<script src="../js/lazy.js"></script>
+	<script>
+	ajax.get("headerqt1.html", function (str){
+		document.querySelector(".header").innerHTML = str;
+	})
+	</script>
+	<div class="center">
+		<div class="left">
+			<ul>
+				<li><a href="#">面部护理</a>
+					<ol>
+						<li>
+							<a href="#">卸妆步骤</a>
+							<a href="#">洁肤步骤</a>
+							<a href="#">爽肤步骤</a>
+							<a href="#">精华步骤</a>
+							<a href="#">润肤步骤</a>
+							<a href="#">日间防护</a>
+							<a href="#">唇部护理</a>
+							<a href="#">特殊护理</a>
+							<a href="#">T区护理</a>
+							<a href="#">口服美容</a>
+							<a href="#">护肤套装</a>
+							<a href="#">儿童护肤</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">彩妆</a>
+					<ol>
+						<li>
+							<a href="#">底妆</a>
+							<a href="#">眉毛</a>
+							<a href="#">眼线</a>
+							<a href="#">眼影</a>
+							<a href="#">睫毛</a>
+							<a href="#">脸颊</a>
+							<a href="#">唇妆</a>
+							<a href="#">彩妆组合</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">香氛</a>
+					<ol>
+						<li>
+							<a href="#">女士香氛</a>
+							<a href="#">男士香氛</a>
+							<a href="#">中性香水</a>
+							<a href="#">限量版</a>
+							<a href="#">香氛套装</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">身体护理</a>
+					<ol>
+						<li>
+							<a href="#">颈部护理</a>
+							<a href="#">手足护理</a>
+							<a href="#">洁肤沐浴</a>
+							<a href="#">香体润体</a>
+							<a href="#">丰胸美乳</a>
+							<a href="#">纤体瘦身</a>
+							<a href="#">止汗/脱毛</a>
+							<a href="#">洗护套装</a>
+							<a href="#">儿童洗护</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">头部护理</a>
+					<ol>
+						<li>
+							<a href="#">日常护理</a>
+							<a href="#">特殊护理</a>
+							<a href="#">防脱育发</a>
+							<a href="#">染发</a>
+							<a href="#">造型</a>
+							<a href="#">儿童护理</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">男士专区</a>
+					<ol>
+						<li>
+							<a href="#">面部护肤</a>
+							<a href="#">剃须护理</a>
+							<a href="#">身体护理</a>
+							<a href="#">头发护理</a>
+							<a href="#">男士精品</a>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#">美容工具</a>
+					<ol>
+						<li>
+							<a href="#">护肤工具</a>
+							<a href="#">彩妆工具</a>
+							<a href="#">美体工具</a>
+							<a href="#">美发工具</a>
+							<a href="#">家具用品</a>
+						</li>
+					</ol>
+				</li>
+			</ul>
+			<h2>一周销量排行榜</h2>
+			<ul id="xliang">
+				<li><a href="#"><img src="../showimg/1.jpg" /></a>
+				倩碧眼部护理水凝霜<br />
+				<span>￥55.00</span>
+				</li>
+				<li><a href="#"><img src="../showimg/2.jpg" /></a>
+					兰蔻柔细情头防晒霜<br />
+				<span>￥98.00</span>
+				</li>
+				<li><a href="#"><img src="../showimg/3.jpg" /></a>
+					倩碧啫喱水<br />
+				<span>￥198.00</span>
+				</li>
+			</ul>
+			<h2>浏览记录</h2>
+			<ul id="xliang">
+				<li><a href="#"><img src="../showimg/1.jpg" /></a>
+				倩碧眼部护理水凝霜<br />
+				<span>￥55.00</span>
+				</li>
+				<li><a href="#"><img src="../showimg/2.jpg" /></a>
+					兰蔻柔细情头防晒霜<br />
+				<span>￥98.00</span>
+				</li>
+				<li><a href="#"><img src="../showimg/3.jpg" /></a>
+					倩碧啫喱水<br />
+				<span>￥198.00</span>
+				</li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="toop">
+				<ul>
+					<li class="e">
+						<p>品牌
+							<a href="#" class="bx">不限</a>
+							<a href="#">OPQ</a>
+							<a href="#">ABCD</a>
+							<a href="#">XYZ</a>
+							<a href="#">LMN</a>
+							<a href="#">HIJK</a>
+							<a href="#">RST</a>
+							<a href="#">EFG</a>
+							<a href="#">UVW</a>
+							<input type="button"  value="更多" id="btn"/>
+						</p>
+						
+						<a href="#">倩碧</a><a href="#">迪奥</a><a href="#">雅诗兰黛</a><a href="#">兰蔻</a><a href="#">欧舒丹</a>
+						<a href="#">资生堂</a><a href="#">安娜苏</a><a href="#">欧碧全</a><a href="#">植村秀</a><a href="#">兰芝</a>
+						<a href="#">娇韵诗</a><a href="#">思亲肤</a><a href="#">高斯</a><a href="#">欧莱雅</a><a href="#">欧舒丹</a>
+						<a href="#">希思黎</a><a href="#">香奈儿</a><a href="#">菲林小铺</a><a href="#">科颜氏</a><a href="#">娇兰</a>
+						<a href="#">倩碧</a><a href="#">迪奥</a><a href="#">雅诗兰黛</a><a href="#">兰蔻</a><a href="#">欧舒丹</a>
+						<a href="#">资生堂</a><a href="#">安娜苏</a><a href="#">欧碧全</a><a href="#">植村秀</a><a href="#">兰芝</a>
+						<a href="#">娇韵诗</a><a href="#">思亲肤</a><a href="#">高斯</a><a href="#">欧莱雅</a><a href="#">欧舒丹</a>
+						<a href="#">希思黎</a><a href="#">香奈儿</a><a href="#">菲林小铺</a><a href="#">科颜氏</a><a href="#">娇兰</a>
+						<a href="#">倩碧</a><a href="#">迪奥</a><a href="#">雅诗兰黛</a><a href="#">兰蔻</a><a href="#">欧舒丹</a>
+						<a href="#">资生堂</a><a href="#">安娜苏</a><a href="#">欧碧全</a><a href="#">植村秀</a><a href="#">兰芝</a>
+						<a href="#">娇韵诗</a><a href="#">思亲肤</a><a href="#">高斯</a><a href="#">欧莱雅</a><a href="#">欧舒丹</a>
+						<a href="#">希思黎</a><a href="#">香奈儿</a><a href="#">菲林小铺</a><a href="#">科颜氏</a><a href="#">娇兰</a>
+					</li>
+					<li>
+						<p>产地
+							<a href="#" class="bx">不限</a>
+							<a href="#">中国</a>
+							<a href="#">中国台湾</a>
+							<a href="#">香港</a>
+							<a href="#">日本</a>
+							<a href="#">韩国</a>
+							<a href="#">泰国</a>
+							<a href="#">美国</a>
+							<a href="#">英国</a>
+							<a href="#">法国</a>
+							<a href="#">加拿大</a>
+							<a href="#">摩纳哥</a>
+							<a href="#">德国</a>
+							<a href="#">澳大利亚</a>
+							<a href="#">比利时</a>
+							<a href="#">瑞士</a>
+							<a href="#">其他</a>
+						</p>
+					</li>
+					<li>
+						<p>包装
+							<a href="#" class="bx">不限</a>
+							<a href="#">有外盒有密封</a>
+							<a href="#">有外盒无密封</a>
+							<a href="#">无外盒有密封</a>
+							<a href="#">无外盒无密封</a>
+							<a href="#">其他</a>
+						</p>
+					</li>
+					<li>
+						<p>规格
+							<a href="#" class="bx">不限</a>
+							<a href="#">正装</a>
+							<a href="#">小样</a>
+						</p>
+					</li>
+					<li>
+						<p>价格
+							<a href="#" class="bx">不限</a>
+							<a href="#">0-100元</a>
+							<a href="#">101-200元</a>
+							<a href="#">201-300元</a>
+							<a href="#">301-400元</a>
+							<a href="#">401-800元</a>
+							<a href="#">800元以上</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="xxk">
+				<p>排序：
+				<input type="button" value="销量" class="ckecked1" />
+				<input type="button" value="价格" />
+				<input type="button" value="好评度" />
+				<input type="button" value="上架时间" />
+				</p>
+				<div class="slected" id="div1">
+				</div>
+				<div id="div2">2</div>
+				<div id="div3">3</div>
+				<div id="div4">4</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+	<iframe src="footer.html" scrolling="no"></iframe>	
+	</div>
+	</body>
+</html>
+<script src="../js/liebiao.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	var imgs=div1.getElementsByTagName("img");
+	lazyload(imgs);
+	
+</script>

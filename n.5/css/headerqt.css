@@ -1,0 +1,72 @@
+html,body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+a{text-decoration:none;}
+ul,ol,li{list-style: none;}
+img{border:0;display:block;}
+/*----------------------nav----------------------*/
+.liebiao{
+	width:230px;height:640px;background:#666;position: absolute;display: none;
+	z-index: 2;top:165px;left:115px; color: #000;
+}
+.liebiao li{
+	width:230px;height:90px;border-bottom:1px solid #e7e7e7;
+}
+.liebiao li p:nth-child(1){
+	float: left;font-size:14px;height:20px;
+}
+.liebiao li p:nth-child(2){
+	float: right;color:blue;height:20px;
+}
+.liebiao li p:nth-child(1) a{
+	font-size:14px;
+}
+.liebiao li p:nth-child(2) a{
+	color:blue;	font-size:14px;
+}
+.liebiao li h4{
+	clear: both;height:70px;line-height: 20px;padding-top:10px;font-weight: normal;
+}
+.liebiao li  a{
+	color:#000;display: inline;border:none;line-height: 20px;
+	font-size:12px;
+}
+.liebiao div{
+	float: left;position: absolute;padding-left:10px;
+	display: block;width:550px;left:250px;top:50px;display: none;z-index: 1;
+	
+}
+.liebiao div ul{
+	float: left;width:300px;z-index: 1;background: #fff;
+}
+
+.liebiao div .ul2{
+	width:230px;background:#f8f8f8;float: left;
+}
+.liebiao div .ul2 li{
+	width:115px;height:30px;border-bottom:none;
+}
+.liebiao div .ul2 .li1{
+	width:200px;height:200px;text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

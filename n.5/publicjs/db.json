@@ -1,0 +1,21 @@
+﻿{
+	"type":["水果","动物"],
+	"list":[
+		{"id":"1", "time":"2017/4/12 10:59:40", "title":"苹果", "content":"好吃的大苹果", "img":"1.jpg", "price":3, "type":"0", "imgs":["apple/a.jpg","apple/b.jpg","apple/c.jpg","apple/d.jpg","apple/e.jpg","apple/f.jpg","apple/g.jpg"]},
+		{"id":"2", "time":"2017/5/24 15:1:31", "title":"香蕉", "content":"香蕉", "img":"2.jpg", "price":2, "type":"0", "imgs":[]},
+		{"id":"3", "time":"2017/2/25 5:15:21", "title":"桃", "content":"猴子的最爱", "img":"3.jpg", "price":4, "type":"0", "imgs":[]},
+		{"id":"4", "time":"2017/3/23 10:11:17", "title":"橘子", "content":"橘子", "img":"4.jpg", "price":5, "type":"0", "imgs":[]},
+		{"id":"5", "time":"2017/4/25 9:18:31", "title":"梨", "content":"清热解毒", "img":"5.jpg", "price":5, "type":"0", "imgs":[]},
+		{"id":"6", "time":"2017/5/21 5:24:47", "title":"杏", "content":"杏", "img":"6.jpg", "price":4, "type":"0", "imgs":[]},
+		{"id":"7", "time":"2017/6/22 9:52:23", "title":"西瓜", "content":"西瓜", "img":"7.jpg", "price":2, "type":"0", "imgs":[]},
+		{"id":"8", "time":"2017/2/23 12:43:1", "title":"哈密瓜", "content":"哈密瓜", "img":"8.jpg", "price":7, "type":"0", "imgs":[]},
+		{"id":"9", "time":"2017/2/24 11:26:10", "title":"菠萝", "content":"菠萝", "img":"9.jpg", "price":20, "type":"0", "imgs":[]},
+		{"id":"10", "time":"2017/2/28 10:46:18", "title":"葡萄", "content":"葡萄", "img":"10.jpg", "price":10, "type":"0", "imgs":[]},
+		{"id":"11", "time":"2017/2/22 11:38:45", "title":"樱桃", "content":"樱桃", "img":"11.jpg", "price":50, "type":"0", "imgs":[]},
+		{"id":"12", "time":"2017/2/21 6:34:33", "title":"草莓", "content":"草莓", "img":"12.jpg", "price":45, "type":"0", "imgs":[]},
+		{"id":"13", "time":"2017/2/20 9:28:22", "title":"猕猴桃", "content":"猕猴桃", "img":"13.jpg", "price":30, "type":"0", "imgs":[]},
+		{"id":"14", "time":"2017/2/24 15:24:48", "title":"火龙果", "content":"火龙果", "img":"14.jpg", "price":15, "type":"0", "imgs":[]},
+		{"id":"15", "time":"2017/2/22 17:18:59", "title":"荔枝", "content":"荔枝", "img":"15.jpg", "price":65, "type":"0", "imgs":[]},
+		{"id":"100", "time":"2017/2/27 23:19:1", "title":"家猫", "content":"黄猫警长", "img":"d0.jpg", "price":1000, "type":"1", "imgs":[]}
+	]
+}

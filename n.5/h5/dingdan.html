@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/dingdan.css" />
+		<style>
+		*{
+			margin:0;padding:0;
+		}
+		iframe{
+			width:100%;border:none;height:100%;
+		}
+		.header{
+			width:100%;height:200px;overflow: hidden;margin:0 auto;
+			/*position: absolute;z-index: 1;*/
+		}
+		.footer{
+			width:100%;height:500px;overflow: hidden;margin:0 auto;
+		}
+		</style>
+		<script src="../publicjs/ajax.js" ></script>
+		<script src="../publicjs/cookie.js"></script>
+	</head>
+	<body>
+		<div class="header">
+		</div>
+	<script>
+	ajax.get("headerqt1.html", function (str){
+		document.querySelector(".header").innerHTML = str;
+	});
+	</script>
+	<div class="c1">
+		<div class="left">
+			<h1 id="me">我的账户</h1>
+			<div class="zol">
+			<ol>
+				<h5 id="biao"><a href="#">交易管理</a></h5>
+				<li><a href="#">>订单查询</a></li>
+				<li><a href="#">>账户余额</a></li>
+				<li><a href="#">>累计消费/积分</a></li>
+				<li><a href="#">>优惠券/礼品卡</a></li>
+			</ol>
+			<ol>
+				<h5 id="biao"><a href="#">个人详细管理</a></h5>
+				<li><a href="#">>收货人地址簿</a></li>
+				<li><a href="#">>个人资料</a></li>
+				<li><a href="#">>修改密码</a></li>
+				
+			</ol>
+			<ol>
+				<h5 id="biao"><a href="#">个人应用管理</a></h5>
+				<li><a href="#">>我的评论</a></li>
+				<li><a href="#">>我的提问</a></li>
+				<li><a href="#">>收藏夹</a></li>
+				
+			</ol>
+			<h4><a href="#">退出登录</a></h4>
+			</div>
+		</div>
+		<div class="right">
+			<p>订单查询</p>
+			<input type="button" value="最近一个月的的订单"/>
+			<input type="button" value="需支付的订单"/>
+			<input type="button" value="所有订单"/><br /><br />
+			
+			<!--<table>动态创建才能符合cookie
+				<tr>
+					<td>订单号</td><td>收货人</td><td>付款方式</td><td>应付款</td><td>订单状态</td><td>订单时间</td><td>操作</td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+			</table>-->
+		</div>
+	</div>
+	<div class="footer">
+	<iframe src="footer.html" scrolling="no"></iframe>	
+	</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+	html,body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+			a{text-decoration:none;}
+			ul,ol,li{list-style: none;}
+			img{border:0;display:block;}
+			/*----------------------top-----------------------*/
+			.top1{
+				height:35px;
+				background:url(../img/2.jpg) repeat-x;
+			}
+			.top{
+				width:1200px;height:35px;margin:0 auto;
+			}
+			.top ul{
+				float: right;
+			}
+			.top ul li{
+				float: left;height:35px;line-height: 35px;
+				font-size: 12px;
+			}
+			.top ul li a{
+				border-right: 1px solid #000;padding-right:5px;padding-left:5px;
+			}
+			.top a{
+				line-height: 35px;font-size: 12px;
+			}
+			/*----------------------logo----------------------*/
+			.logo{
+				width: 1200px;height:90px;position: relative;margin:0 auto;
+			}
+			.logo h1{
+				float: left;padding-right:170px;margin-top: 10px;
+			}
+			.logo h2{
+				float: left;width:430px;height:57px;padding-right:215px;margin-top: 20px;
+			}
+			.logo h2 input:nth-child(1){
+				width:363px;border-top: 2px solid blue;height:33px;border-left: 2px solid blue;
+				border-bottom: 2px solid blue;float: left;
+			}
+			.logo h2 input:nth-child(2){
+				width:60px;border:none;height:39px;float: left;background: blue;color:#fff;font-size: 16px;
+				
+			}
+			.logo h3{
+				float: left;margin-top: 20px;
+			}
+			.logo h3 a:nth-child(1){
+				width:45px;height:45px;border-radius: 50%;background:#fdfdfd url(../img/cart.jpg) no-repeat center;display:inline-block;position:absolute;left:960px;top:20px;
+			}
+			.logo h3 a:nth-child(2){
+				width:175px;height:45px;border-radius: 45px;background:#eee;display: inline-block;text-align: center;line-height: 45px;
+			}
+			.logo h3 a:nth-child(2) span{
+				color: red;
+			}
+			.logo a{
+				line-height: 35px;font-size: 12px;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

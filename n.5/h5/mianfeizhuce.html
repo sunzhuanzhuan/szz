@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/zhuce.css" />
+		<style>
+		*{
+			margin:0;padding:0;
+		}
+		iframe{
+			width:100%;border:none;height:100%;
+		}
+		.header{
+			width:100%;height:200px;overflow: hidden;margin:0 auto;
+			/*position: absolute;z-index: 1;*/
+		}
+		.footer{
+			width:100%;height:500px;overflow: hidden;margin:0 auto;
+		}
+		</style>
+		<script src="../publicjs/ajax.js" ></script>
+		<script src="../publicjs/cookie.js"></script>
+	</head>
+	<body>
+		<div class="header">
+		</div>
+	<script>
+	ajax.get("headerqt1.html", function (str){
+		document.querySelector(".header").innerHTML = str;
+	});
+	</script>
+	<div class="center1">
+		<h6><span>恭喜</span>注册成功!<b>∨</b></h6>
+		<p>尊敬的<span></span>, 祝贺您成为No.5时尚广场用户！为了方便您的购物及查询，请记住您的用户名和密码！</p>
+		<p>您的注册信息已经发送到您的注册邮箱<span></span></p>
+		<input type="button" value="完善个人资料→" /><br />
+		<a href="#">返回首页》</a>
+		<a href="denglu.html">返回这侧前页面》</a>
+		<a href="#">进入我的账户》</a>
+	</div>
+	<div class="footer">
+	<iframe src="footer.html" scrolling="no"></iframe>	
+	</div>
+	</script>
+	</body>
+</html>
+<script src="../js/zhuce.js" type="text/javascript" charset="utf-8"></script>
